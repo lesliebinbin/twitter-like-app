@@ -1,0 +1,523 @@
+[1:52:51.70] Global cache location '/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0', safe file path '/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[1:52:51.71] Processing cache location '/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0'
+[1:52:51.71] Trying to find '/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json'...
+[1:52:51.71] Finished processing cache location '/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0'
+[1:52:51.71] Process id: 48404
+[1:52:51.71] NPM location: /home/lesliebinbin/.nvm/versions/node/v14.10.1/bin/npm (explicit '--npmLocation' not  provided)
+[1:52:51.71] validateDefaultNpmLocation: false
+[1:52:51.71] Npm config file: /home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json
+[1:52:51.71] Npm config file: '/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json' is missing, creating new one...
+[1:52:51.73] Updating types-registry npm package...
+[1:52:51.73] Exec: /home/lesliebinbin/.nvm/versions/node/v14.10.1/bin/npm install --ignore-scripts types-registry@latest
+[1:52:52.934]     Succeeded. stdout:
+    + types-registry@0.1.522
+    added 1 package from 1 contributor and audited 1 package in 1.263s
+found 0 vulnerabilities
+
+
+[1:52:52.934] Updated types-registry npm package
+[1:52:52.976] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","case-sensitive-paths-webpack-plugin","js-yaml","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin","webpack","webpack-assets-manifest"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:52:53.0] Loaded safelist from types map file '/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[1:52:53.1] Explicitly included types: []
+[1:52:53.2] Inferred typings from unresolved imports: ["@rails/webpacker","case-sensitive-paths-webpack-plugin","js-yaml","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin","webpack","webpack-assets-manifest"]
+[1:52:53.2] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","case-sensitive-paths-webpack-plugin","js-yaml","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin","webpack","webpack-assets-manifest"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:52:53.2] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","case-sensitive-paths-webpack-plugin","js-yaml","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin","webpack","webpack-assets-manifest"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:52:53.3] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components
+[1:52:53.4] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules
+[1:52:53.4] Installing typings ["@rails/webpacker","case-sensitive-paths-webpack-plugin","js-yaml","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin","webpack","webpack-assets-manifest"]
+[1:52:53.5] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:52:53.5] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:52:53.5] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:52:53.5] Npm config file: /home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json
+[1:52:53.5] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":1,"typingsInstallerVersion":"4.0.3","projectName":"/dev/null/inferredProject1*"}
+[1:52:53.5] Response has been sent.
+[1:52:53.6] #1 with arguments'["@types/case-sensitive-paths-webpack-plugin@ts4.0","@types/js-yaml@ts4.0","@types/mini-css-extract-plugin@ts4.0","@types/webpack@ts4.0","@types/webpack-assets-manifest@ts4.0"]'.
+[1:52:53.6] Exec: /home/lesliebinbin/.nvm/versions/node/v14.10.1/bin/npm install --ignore-scripts @types/case-sensitive-paths-webpack-plugin@ts4.0 @types/js-yaml@ts4.0 @types/mini-css-extract-plugin@ts4.0 @types/webpack@ts4.0 @types/webpack-assets-manifest@ts4.0 --save-dev --user-agent="typesInstaller/4.0.3"
+[1:52:58.450]     Succeeded. stdout:
+    + @types/js-yaml@3.12.5
+    + @types/mini-css-extract-plugin@1.2.2
++ @types/webpack-assets-manifest@3.0.1
++ @types/case-sensitive-paths-webpack-plugin@2.1.4
++ @types/webpack@4.41.25
+added 13 packages from 109 contributors and audited 15 packages in 5.05s
+found 0 vulnerabilities
+
+
+[1:52:58.450] npm install #1 took: 5444 ms
+[1:52:58.450] Installed typings ["@types/case-sensitive-paths-webpack-plugin@ts4.0","@types/js-yaml@ts4.0","@types/mini-css-extract-plugin@ts4.0","@types/webpack@ts4.0","@types/webpack-assets-manifest@ts4.0"]
+[1:52:58.467] Installed typing files ["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/case-sensitive-paths-webpack-plugin/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/js-yaml/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/mini-css-extract-plugin/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/webpack/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/webpack-assets-manifest/index.d.ts"]
+[1:52:58.468] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/case-sensitive-paths-webpack-plugin/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/js-yaml/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/mini-css-extract-plugin/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/webpack/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/webpack-assets-manifest/index.d.ts"],"unresolvedImports":["@rails/webpacker","case-sensitive-paths-webpack-plugin","js-yaml","mini-css-extract-plugin","path-complete-extname","pnp-webpack-plugin","webpack","webpack-assets-manifest"],"kind":"action::set"}
+[1:52:58.468] Response has been sent.
+[1:52:58.468] Sending response:
+    {"kind":"event::endInstallTypes","eventId":1,"projectName":"/dev/null/inferredProject1*","packagesToInstall":["@types/case-sensitive-paths-webpack-plugin@ts4.0","@types/js-yaml@ts4.0","@types/mini-css-extract-plugin@ts4.0","@types/webpack@ts4.0","@types/webpack-assets-manifest@ts4.0"],"installSuccess":true,"typingsInstallerVersion":"4.0.3"}
+[1:52:58.468] Response has been sent.
+[1:52:59.97] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/webpack/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/mini-css-extract-plugin/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/webpack-assets-manifest/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/case-sensitive-paths-webpack-plugin/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/js-yaml/index.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:52:59.98] Explicitly included types: []
+[1:52:59.98] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:52:59.98] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:52:59.98] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:52:59.98] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:52:59.98] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:52:59.99] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:52:59.99] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:52:59.99] All typings are known to be missing or invalid - no need to install more typings
+[1:52:59.99] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[1:52:59.99] Response has been sent.
+[1:52:59.500] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:52:59.500] Explicitly included types: []
+[1:52:59.501] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:52:59.501] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:52:59.502] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:52:59.502] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:52:59.502] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:52:59.502] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:52:59.502] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:52:59.502] All typings are known to be missing or invalid - no need to install more typings
+[1:52:59.503] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[1:52:59.503] Response has been sent.
+[1:53:12.566] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["","@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:12.566] Explicitly included types: []
+[1:53:12.568] Inferred typings from unresolved imports: ["","@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:53:12.568] Result: {"cachedTypingPaths":[],"newTypingNames":["","@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:12.568] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["","@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:12.569] Installing typings ["","@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:53:12.569] '':: Package name '' cannot be empty
+[1:53:12.569] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:12.570] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:12.570] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:12.570] All typings are known to be missing or invalid - no need to install more typings
+[1:53:12.570] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["","@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[1:53:12.570] Response has been sent.
+[1:53:12.839] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","w"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:12.839] Explicitly included types: []
+[1:53:12.839] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","w"]
+[1:53:12.839] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","w"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:12.839] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","w"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:12.840] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","w"]
+[1:53:12.840] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:12.840] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:12.840] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:12.840] 'w':: Entry for package 'w' does not exist in local types registry - skipping...
+[1:53:12.840] All typings are known to be missing or invalid - no need to install more typings
+[1:53:12.840] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","w"],"kind":"action::set"}
+[1:53:12.840] Response has been sent.
+[1:53:12.881] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","we"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:12.881] Explicitly included types: []
+[1:53:12.881] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","we"]
+[1:53:12.881] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","we"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:12.882] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","we"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:12.882] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","we"]
+[1:53:12.882] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:12.882] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:12.882] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:12.882] 'we':: Entry for package 'we' does not exist in local types registry - skipping...
+[1:53:12.882] All typings are known to be missing or invalid - no need to install more typings
+[1:53:12.882] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","we"],"kind":"action::set"}
+[1:53:12.882] Response has been sent.
+[1:53:13.147] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","web"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:13.148] Explicitly included types: []
+[1:53:13.149] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","web"]
+[1:53:13.149] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","web"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.149] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","web"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.149] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","web"]
+[1:53:13.150] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:13.150] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:13.150] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:13.150] 'web':: Entry for package 'web' does not exist in local types registry - skipping...
+[1:53:13.150] All typings are known to be missing or invalid - no need to install more typings
+[1:53:13.150] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","web"],"kind":"action::set"}
+[1:53:13.150] Response has been sent.
+[1:53:13.374] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webp"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:13.374] Explicitly included types: []
+[1:53:13.375] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webp"]
+[1:53:13.375] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webp"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.375] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webp"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.375] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webp"]
+[1:53:13.375] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:13.375] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:13.375] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:13.375] 'webp':: Entry for package 'webp' does not exist in local types registry - skipping...
+[1:53:13.375] All typings are known to be missing or invalid - no need to install more typings
+[1:53:13.375] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webp"],"kind":"action::set"}
+[1:53:13.375] Response has been sent.
+[1:53:13.472] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpa"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:13.473] Explicitly included types: []
+[1:53:13.473] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpa"]
+[1:53:13.473] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpa"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.474] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpa"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.474] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpa"]
+[1:53:13.474] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:13.474] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:13.474] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:13.475] 'webpa':: Entry for package 'webpa' does not exist in local types registry - skipping...
+[1:53:13.475] All typings are known to be missing or invalid - no need to install more typings
+[1:53:13.475] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpa"],"kind":"action::set"}
+[1:53:13.475] Response has been sent.
+[1:53:13.707] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpac"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:13.707] Explicitly included types: []
+[1:53:13.707] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpac"]
+[1:53:13.707] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpac"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.707] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpac"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.707] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpac"]
+[1:53:13.707] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:13.707] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:13.708] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:13.708] 'webpac':: Entry for package 'webpac' does not exist in local types registry - skipping...
+[1:53:13.708] All typings are known to be missing or invalid - no need to install more typings
+[1:53:13.708] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpac"],"kind":"action::set"}
+[1:53:13.708] Response has been sent.
+[1:53:13.849] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:13.850] Explicitly included types: []
+[1:53:13.850] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:53:13.850] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.850] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.850] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:53:13.850] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:13.850] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:13.851] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:13.851] All typings are known to be missing or invalid - no need to install more typings
+[1:53:13.851] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[1:53:13.851] Response has been sent.
+[1:53:13.948] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacke"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:13.948] Explicitly included types: []
+[1:53:13.948] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacke"]
+[1:53:13.948] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacke"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.949] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacke"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:13.949] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacke"]
+[1:53:13.949] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:13.949] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:13.949] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:13.949] 'webpacke':: Entry for package 'webpacke' does not exist in local types registry - skipping...
+[1:53:13.949] All typings are known to be missing or invalid - no need to install more typings
+[1:53:13.949] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacke"],"kind":"action::set"}
+[1:53:13.949] Response has been sent.
+[1:53:14.24] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacker"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:14.25] Explicitly included types: []
+[1:53:14.25] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacker"]
+[1:53:14.25] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacker"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:14.26] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacker"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:14.26] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacker"]
+[1:53:14.26] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:14.26] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:14.26] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:14.26] 'webpacker':: Entry for package 'webpacker' does not exist in local types registry - skipping...
+[1:53:14.26] All typings are known to be missing or invalid - no need to install more typings
+[1:53:14.27] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin","webpacker"],"kind":"action::set"}
+[1:53:14.27] Response has been sent.
+[1:53:27.57] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:53:27.57] Explicitly included types: []
+[1:53:27.58] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:53:27.58] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:27.58] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:53:27.58] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:53:27.58] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:53:27.58] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:53:27.58] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:53:27.58] All typings are known to be missing or invalid - no need to install more typings
+[1:53:27.58] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[1:53:27.58] Response has been sent.
+[1:56:23.69] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/activestorage","@rails/ujs","channels","turbolinks"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:23.69] Explicitly included types: []
+[1:56:23.70] Inferred typings from unresolved imports: ["@rails/activestorage","@rails/ujs","channels","turbolinks"]
+[1:56:23.70] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/activestorage","@rails/ujs","channels","turbolinks"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:23.70] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/activestorage","@rails/ujs","channels","turbolinks"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:23.70] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components
+[1:56:23.70] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules
+[1:56:23.71] Installing typings ["@rails/activestorage","@rails/ujs","channels","turbolinks"]
+[1:56:23.71] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:23.71] Npm config file: /home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json
+[1:56:23.71] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":2,"typingsInstallerVersion":"4.0.3","projectName":"/dev/null/inferredProject2*"}
+[1:56:23.71] Response has been sent.
+[1:56:23.71] #2 with arguments'["@types/rails__activestorage@ts4.0","@types/rails__ujs@ts4.0","@types/turbolinks@ts4.0"]'.
+[1:56:23.71] Exec: /home/lesliebinbin/.nvm/versions/node/v14.10.1/bin/npm install --ignore-scripts @types/rails__activestorage@ts4.0 @types/rails__ujs@ts4.0 @types/turbolinks@ts4.0 --save-dev --user-agent="typesInstaller/4.0.3"
+[1:56:27.42]     Succeeded. stdout:
+    + @types/turbolinks@5.2.0
+    + @types/rails__activestorage@6.0.0
++ @types/rails__ujs@6.0.0
+added 3 packages from 5 contributors and audited 18 packages in 3.548s
+found 0 vulnerabilities
+
+
+[1:56:27.42] npm install #2 took: 3971 ms
+[1:56:27.42] Installed typings ["@types/rails__activestorage@ts4.0","@types/rails__ujs@ts4.0","@types/turbolinks@ts4.0"]
+[1:56:27.50] Installed typing files ["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/rails__activestorage/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/rails__ujs/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/turbolinks/index.d.ts"]
+[1:56:27.50] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/rails__activestorage/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/rails__ujs/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/turbolinks/index.d.ts"],"unresolvedImports":["@rails/activestorage","@rails/ujs","channels","turbolinks"],"kind":"action::set"}
+[1:56:27.50] Response has been sent.
+[1:56:27.50] Sending response:
+    {"kind":"event::endInstallTypes","eventId":2,"projectName":"/dev/null/inferredProject2*","packagesToInstall":["@types/rails__activestorage@ts4.0","@types/rails__ujs@ts4.0","@types/turbolinks@ts4.0"],"installSuccess":true,"typingsInstallerVersion":"4.0.3"}
+[1:56:27.51] Response has been sent.
+[1:56:27.530] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/rails__ujs/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/turbolinks/index.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/rails__activestorage/index.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:27.531] Explicitly included types: []
+[1:56:27.532] Inferred typings from unresolved imports: ["channels"]
+[1:56:27.532] Result: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:27.532] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:27.532] Installing typings ["channels"]
+[1:56:27.533] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:27.533] All typings are known to be missing or invalid - no need to install more typings
+[1:56:27.533] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels"],"kind":"action::set"}
+[1:56:27.533] Response has been sent.
+[1:56:27.918] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:27.918] Explicitly included types: []
+[1:56:27.919] Inferred typings from unresolved imports: ["channels"]
+[1:56:27.919] Result: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:27.919] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:27.919] Installing typings ["channels"]
+[1:56:27.920] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:27.920] All typings are known to be missing or invalid - no need to install more typings
+[1:56:27.920] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels"],"kind":"action::set"}
+[1:56:27.920] Response has been sent.
+[1:56:28.690] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/environment.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack","kind":"discover"}
+[1:56:28.691] Explicitly included types: []
+[1:56:28.692] Inferred typings from unresolved imports: ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:56:28.692] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:56:28.692] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/config/webpack/node_modules"]}
+[1:56:28.693] Installing typings ["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"]
+[1:56:28.693] '@rails/webpacker':: Entry for package 'rails__webpacker' does not exist in local types registry - skipping...
+[1:56:28.693] 'path-complete-extname':: Entry for package 'path-complete-extname' does not exist in local types registry - skipping...
+[1:56:28.693] 'pnp-webpack-plugin':: Entry for package 'pnp-webpack-plugin' does not exist in local types registry - skipping...
+[1:56:28.694] All typings are known to be missing or invalid - no need to install more typings
+[1:56:28.694] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/webpacker","path-complete-extname","pnp-webpack-plugin"],"kind":"action::set"}
+[1:56:28.694] Response has been sent.
+[1:56:53.500] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["","channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:53.501] Explicitly included types: []
+[1:56:53.502] Inferred typings from unresolved imports: ["","channels"]
+[1:56:53.502] Result: {"cachedTypingPaths":[],"newTypingNames":["","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:53.502] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:53.502] Installing typings ["","channels"]
+[1:56:53.502] '':: '' is in missingTypingsSet - skipping...
+[1:56:53.503] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:53.503] All typings are known to be missing or invalid - no need to install more typings
+[1:56:53.503] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["","channels"],"kind":"action::set"}
+[1:56:53.503] Response has been sent.
+[1:56:53.752] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","j"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:53.753] Explicitly included types: []
+[1:56:53.753] Inferred typings from unresolved imports: ["channels","j"]
+[1:56:53.753] Result: {"cachedTypingPaths":[],"newTypingNames":["channels","j"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:53.753] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels","j"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:53.754] Installing typings ["channels","j"]
+[1:56:53.754] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:53.754] 'j':: Entry for package 'j' does not exist in local types registry - skipping...
+[1:56:53.754] All typings are known to be missing or invalid - no need to install more typings
+[1:56:53.754] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels","j"],"kind":"action::set"}
+[1:56:53.754] Response has been sent.
+[1:56:53.972] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","jq"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:53.972] Explicitly included types: []
+[1:56:53.972] Inferred typings from unresolved imports: ["channels","jq"]
+[1:56:53.972] Result: {"cachedTypingPaths":[],"newTypingNames":["channels","jq"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:53.972] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels","jq"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:53.972] Installing typings ["channels","jq"]
+[1:56:53.972] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:53.972] 'jq':: Entry for package 'jq' does not exist in local types registry - skipping...
+[1:56:53.972] All typings are known to be missing or invalid - no need to install more typings
+[1:56:53.973] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels","jq"],"kind":"action::set"}
+[1:56:53.973] Response has been sent.
+[1:56:54.95] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","jqu"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:54.95] Explicitly included types: []
+[1:56:54.96] Inferred typings from unresolved imports: ["channels","jqu"]
+[1:56:54.96] Result: {"cachedTypingPaths":[],"newTypingNames":["channels","jqu"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.96] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels","jqu"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.96] Installing typings ["channels","jqu"]
+[1:56:54.96] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:54.96] 'jqu':: Entry for package 'jqu' does not exist in local types registry - skipping...
+[1:56:54.96] All typings are known to be missing or invalid - no need to install more typings
+[1:56:54.96] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels","jqu"],"kind":"action::set"}
+[1:56:54.96] Response has been sent.
+[1:56:54.194] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","jque"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:54.195] Explicitly included types: []
+[1:56:54.195] Inferred typings from unresolved imports: ["channels","jque"]
+[1:56:54.195] Result: {"cachedTypingPaths":[],"newTypingNames":["channels","jque"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.195] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels","jque"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.195] Installing typings ["channels","jque"]
+[1:56:54.195] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:54.195] 'jque':: Entry for package 'jque' does not exist in local types registry - skipping...
+[1:56:54.195] All typings are known to be missing or invalid - no need to install more typings
+[1:56:54.195] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels","jque"],"kind":"action::set"}
+[1:56:54.195] Response has been sent.
+[1:56:54.668] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","jquer"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:54.668] Explicitly included types: []
+[1:56:54.668] Inferred typings from unresolved imports: ["channels","jquer"]
+[1:56:54.668] Result: {"cachedTypingPaths":[],"newTypingNames":["channels","jquer"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.668] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels","jquer"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.668] Installing typings ["channels","jquer"]
+[1:56:54.668] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:54.668] 'jquer':: Entry for package 'jquer' does not exist in local types registry - skipping...
+[1:56:54.668] All typings are known to be missing or invalid - no need to install more typings
+[1:56:54.668] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels","jquer"],"kind":"action::set"}
+[1:56:54.668] Response has been sent.
+[1:56:54.769] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","jquery"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:54.770] Explicitly included types: []
+[1:56:54.770] Inferred typings from unresolved imports: ["channels","jquery"]
+[1:56:54.771] Result: {"cachedTypingPaths":[],"newTypingNames":["channels","jquery"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.771] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels","jquery"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:54.771] Installing typings ["channels","jquery"]
+[1:56:54.771] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:54.771] Npm config file: /home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json
+[1:56:54.772] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":3,"typingsInstallerVersion":"4.0.3","projectName":"/dev/null/inferredProject2*"}
+[1:56:54.772] Response has been sent.
+[1:56:54.772] #3 with arguments'["@types/jquery@ts4.0"]'.
+[1:56:54.772] Exec: /home/lesliebinbin/.nvm/versions/node/v14.10.1/bin/npm install --ignore-scripts @types/jquery@ts4.0 --save-dev --user-agent="typesInstaller/4.0.3"
+[1:56:59.582]     Succeeded. stdout:
+    + @types/jquery@3.5.5
+    added 2 packages from 23 contributors and audited 20 packages in 4.366s
+found 0 vulnerabilities
+
+
+[1:56:59.582] npm install #3 took: 4810 ms
+[1:56:59.582] Installed typings ["@types/jquery@ts4.0"]
+[1:56:59.590] Installed typing files ["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/index.d.ts"]
+[1:56:59.590] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/index.d.ts"],"unresolvedImports":["channels","jquery"],"kind":"action::set"}
+[1:56:59.590] Response has been sent.
+[1:56:59.590] Sending response:
+    {"kind":"event::endInstallTypes","eventId":3,"projectName":"/dev/null/inferredProject2*","packagesToInstall":["@types/jquery@ts4.0"],"installSuccess":true,"typingsInstallerVersion":"4.0.3"}
+[1:56:59.590] Response has been sent.
+[1:56:59.590] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels","jquery"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:56:59.590] Explicitly included types: []
+[1:56:59.590] Inferred typings from unresolved imports: ["channels","jquery"]
+[1:56:59.591] Result: {"cachedTypingPaths":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/index.d.ts"],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:59.591] Finished typings discovery: {"cachedTypingPaths":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/index.d.ts"],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:56:59.591] Installing typings ["channels"]
+[1:56:59.591] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:56:59.591] All typings are known to be missing or invalid - no need to install more typings
+[1:56:59.591] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/index.d.ts"],"unresolvedImports":["channels","jquery"],"kind":"action::set"}
+[1:56:59.591] Response has been sent.
+[1:57:0.192] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/JQueryStatic.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/JQuery.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/misc.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/legacy.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/jquery/index.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:0.193] Explicitly included types: []
+[1:57:0.193] Inferred typings from unresolved imports: ["channels"]
+[1:57:0.193] Result: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:0.193] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:0.193] Installing typings ["channels"]
+[1:57:0.193] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:0.193] All typings are known to be missing or invalid - no need to install more typings
+[1:57:0.193] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels"],"kind":"action::set"}
+[1:57:0.193] Response has been sent.
+[1:57:0.383] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:0.384] Explicitly included types: []
+[1:57:0.384] Inferred typings from unresolved imports: ["channels"]
+[1:57:0.384] Result: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:0.384] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:0.384] Installing typings ["channels"]
+[1:57:0.384] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:0.384] All typings are known to be missing or invalid - no need to install more typings
+[1:57:0.384] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels"],"kind":"action::set"}
+[1:57:0.385] Response has been sent.
+[1:57:3.6] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["boot","channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:3.6] Explicitly included types: []
+[1:57:3.7] Inferred typings from unresolved imports: ["boot","channels"]
+[1:57:3.7] Result: {"cachedTypingPaths":[],"newTypingNames":["boot","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:3.7] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["boot","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:3.7] Installing typings ["boot","channels"]
+[1:57:3.7] 'boot':: Entry for package 'boot' does not exist in local types registry - skipping...
+[1:57:3.7] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:3.7] All typings are known to be missing or invalid - no need to install more typings
+[1:57:3.7] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["boot","channels"],"kind":"action::set"}
+[1:57:3.7] Response has been sent.
+[1:57:3.406] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["boots","channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:3.406] Explicitly included types: []
+[1:57:3.407] Inferred typings from unresolved imports: ["boots","channels"]
+[1:57:3.407] Result: {"cachedTypingPaths":[],"newTypingNames":["boots","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:3.407] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["boots","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:3.408] Installing typings ["boots","channels"]
+[1:57:3.408] 'boots':: Entry for package 'boots' does not exist in local types registry - skipping...
+[1:57:3.408] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:3.408] All typings are known to be missing or invalid - no need to install more typings
+[1:57:3.408] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["boots","channels"],"kind":"action::set"}
+[1:57:3.408] Response has been sent.
+[1:57:3.806] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["bootstra","channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:3.807] Explicitly included types: []
+[1:57:3.807] Inferred typings from unresolved imports: ["bootstra","channels"]
+[1:57:3.807] Result: {"cachedTypingPaths":[],"newTypingNames":["bootstra","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:3.807] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["bootstra","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:3.808] Installing typings ["bootstra","channels"]
+[1:57:3.808] 'bootstra':: Entry for package 'bootstra' does not exist in local types registry - skipping...
+[1:57:3.808] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:3.808] All typings are known to be missing or invalid - no need to install more typings
+[1:57:3.808] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["bootstra","channels"],"kind":"action::set"}
+[1:57:3.808] Response has been sent.
+[1:57:4.179] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["bootstrap","channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:4.179] Explicitly included types: []
+[1:57:4.179] Inferred typings from unresolved imports: ["bootstrap","channels"]
+[1:57:4.179] Result: {"cachedTypingPaths":[],"newTypingNames":["bootstrap","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:4.179] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["bootstrap","channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:4.179] Installing typings ["bootstrap","channels"]
+[1:57:4.179] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:4.179] Npm config file: /home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/package.json
+[1:57:4.179] Sending response:
+    {"kind":"event::beginInstallTypes","eventId":4,"typingsInstallerVersion":"4.0.3","projectName":"/dev/null/inferredProject2*"}
+[1:57:4.179] Response has been sent.
+[1:57:4.179] #4 with arguments'["@types/bootstrap@ts4.0"]'.
+[1:57:4.179] Exec: /home/lesliebinbin/.nvm/versions/node/v14.10.1/bin/npm install --ignore-scripts @types/bootstrap@ts4.0 --save-dev --user-agent="typesInstaller/4.0.3"
+[1:57:6.891]     Succeeded. stdout:
+    + @types/bootstrap@5.0.1
+    added 2 packages from 5 contributors and audited 22 packages in 2.304s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+[1:57:6.891] npm install #4 took: 2712 ms
+[1:57:6.891] Installed typings ["@types/bootstrap@ts4.0"]
+[1:57:6.894] Installed typing files ["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/bootstrap/index.d.ts"]
+[1:57:6.894] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/bootstrap/index.d.ts"],"unresolvedImports":["bootstrap","channels"],"kind":"action::set"}
+[1:57:6.894] Response has been sent.
+[1:57:6.894] Sending response:
+    {"kind":"event::endInstallTypes","eventId":4,"projectName":"/dev/null/inferredProject2*","packagesToInstall":["@types/bootstrap@ts4.0"],"installSuccess":true,"typingsInstallerVersion":"4.0.3"}
+[1:57:6.894] Response has been sent.
+[1:57:7.337] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/lesliebinbin/snap/emacs/common/.cache/typescript/4.0/node_modules/@types/bootstrap/index.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:7.338] Explicitly included types: []
+[1:57:7.338] Inferred typings from unresolved imports: ["channels"]
+[1:57:7.339] Result: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:7.339] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:7.339] Installing typings ["channels"]
+[1:57:7.339] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:7.339] All typings are known to be missing or invalid - no need to install more typings
+[1:57:7.339] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels"],"kind":"action::set"}
+[1:57:7.340] Response has been sent.
+[1:57:7.591] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/spacemacs/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/application.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["channels"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs","kind":"discover"}
+[1:57:7.592] Explicitly included types: []
+[1:57:7.592] Inferred typings from unresolved imports: ["channels"]
+[1:57:7.592] Result: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:7.592] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["channels"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/bower_components","/mnt/another-disk/cs_courses/rails-project/sample-app/app/javascript/packs/node_modules"]}
+[1:57:7.592] Installing typings ["channels"]
+[1:57:7.592] 'channels':: Entry for package 'channels' does not exist in local types registry - skipping...
+[1:57:7.592] All typings are known to be missing or invalid - no need to install more typings
+[1:57:7.592] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["channels"],"kind":"action::set"}
+[1:57:7.592] Response has been sent.
