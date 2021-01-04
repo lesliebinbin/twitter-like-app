@@ -5,6 +5,8 @@ ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
+# process the image
+gem 'image_processing', '1.12.1'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
@@ -34,6 +36,9 @@ gem 'faker', '2.15.1'
 
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'will_paginate', '3.3.0'
+
+gem 'active_storage_validations', '0.9.1'
+gem 'mini_magick', '4.11.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
