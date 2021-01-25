@@ -3,6 +3,7 @@
 
 <%= will_paginate %>
 <ul class="users">
-    <%= render @users %>
+    <h2>Marked</h2>
+    <%= render CustomUserComponent.with_collection(@users) %>
 </ul>
 <%= will_paginate %>
