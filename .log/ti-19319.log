@@ -1,0 +1,113 @@
+[16:49:25.294] Global cache location '/home/lesliebinbin/.cache/typescript/4.1', safe file path '/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/typesMap.json
+[16:49:25.294] Processing cache location '/home/lesliebinbin/.cache/typescript/4.1'
+[16:49:25.294] Trying to find '/home/lesliebinbin/.cache/typescript/4.1/package.json'...
+[16:49:25.295] Loaded content of '/home/lesliebinbin/.cache/typescript/4.1/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.525"},"devDependencies":{"@types/atob":"^2.1.2","@types/autoprefixer":"^9.7.2","@types/babel__core":"^7.1.12","@types/babel__preset-env":"^7.9.1","@types/case-sensitive-paths-webpack-plugin":"^2.1.4","@types/copy-webpack-plugin":"^6.4.0","@types/cssnano":"^4.0.0","@types/defined":"^1.0.0","@types/haversine":"^1.1.4","@types/is-glob":"^4.0.1","@types/js-yaml":"^4.0.0","@types/lodash":"^4.14.167","@types/mini-css-extract-plugin":"^1.2.2","@types/node":"^14.14.21","@types/object-assign":"^4.0.30","@types/optimize-css-assets-webpack-plugin":"^5.0.2","@types/phoenix":"^1.5.1","@types/postcss-calc":"^7.0.0","@types/sprintf":"^0.1.0","@types/uglify-es":"^3.0.0","@types/uglifyjs-webpack-plugin":"^1.1.0","@types/webpack":"^4.41.26","@types/webpack-assets-manifest":"^3.0.1","@types/webpack-sources":"^2.1.0"}}
+[16:49:25.295] Loaded content of '/home/lesliebinbin/.cache/typescript/4.1/package-lock.json'
+[16:49:25.307] Adding entry into typings cache: 'atob' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/atob/index.d.ts'
+[16:49:25.310] Adding entry into typings cache: 'autoprefixer' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/autoprefixer/index.d.ts'
+[16:49:25.313] Adding entry into typings cache: 'babel__core' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/babel__core/index.d.ts'
+[16:49:25.316] Adding entry into typings cache: 'babel__preset-env' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/babel__preset-env/index.d.ts'
+[16:49:25.319] Adding entry into typings cache: 'case-sensitive-paths-webpack-plugin' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/case-sensitive-paths-webpack-plugin/index.d.ts'
+[16:49:25.323] Adding entry into typings cache: 'copy-webpack-plugin' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/copy-webpack-plugin/index.d.ts'
+[16:49:25.325] Adding entry into typings cache: 'cssnano' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/cssnano/index.d.ts'
+[16:49:25.327] Adding entry into typings cache: 'defined' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/defined/index.d.ts'
+[16:49:25.330] Adding entry into typings cache: 'haversine' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/haversine/index.d.ts'
+[16:49:25.332] Adding entry into typings cache: 'is-glob' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/is-glob/index.d.ts'
+[16:49:25.336] Adding entry into typings cache: 'js-yaml' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/js-yaml/index.d.ts'
+[16:49:25.343] Adding entry into typings cache: 'lodash' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/lodash/index.d.ts'
+[16:49:25.345] Adding entry into typings cache: 'mini-css-extract-plugin' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/mini-css-extract-plugin/index.d.ts'
+[16:49:25.351] Adding entry into typings cache: 'node' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/node/index.d.ts'
+[16:49:25.354] Adding entry into typings cache: 'object-assign' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/object-assign/index.d.ts'
+[16:49:25.356] Adding entry into typings cache: 'optimize-css-assets-webpack-plugin' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/optimize-css-assets-webpack-plugin/index.d.ts'
+[16:49:25.359] Adding entry into typings cache: 'phoenix' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/phoenix/index.d.ts'
+[16:49:25.361] Adding entry into typings cache: 'postcss-calc' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/postcss-calc/index.d.ts'
+[16:49:25.363] Adding entry into typings cache: 'sprintf' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/sprintf/index.d.ts'
+[16:49:25.365] Adding entry into typings cache: 'uglify-es' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/uglify-es/index.d.ts'
+[16:49:25.367] Adding entry into typings cache: 'uglifyjs-webpack-plugin' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/uglifyjs-webpack-plugin/index.d.ts'
+[16:49:25.370] Adding entry into typings cache: 'webpack' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/webpack/index.d.ts'
+[16:49:25.372] Adding entry into typings cache: 'webpack-assets-manifest' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/webpack-assets-manifest/index.d.ts'
+[16:49:25.374] Adding entry into typings cache: 'webpack-sources' => '/home/lesliebinbin/.cache/typescript/4.1/node_modules/@types/webpack-sources/index.d.ts'
+[16:49:25.374] Finished processing cache location '/home/lesliebinbin/.cache/typescript/4.1'
+[16:49:25.374] Process id: 19326
+[16:49:25.374] NPM location: /home/lesliebinbin/.nvm/versions/node/v14.15.4/bin/npm (explicit '--npmLocation' not  provided)
+[16:49:25.374] validateDefaultNpmLocation: false
+[16:49:25.375] Npm config file: /home/lesliebinbin/.cache/typescript/4.1/package.json
+[16:49:25.375] Updating types-registry npm package...
+[16:49:25.375] Exec: /home/lesliebinbin/.nvm/versions/node/v14.15.4/bin/npm install --ignore-scripts types-registry@latest
+[16:49:27.217]     Succeeded. stdout:
+    + types-registry@0.1.525
+    updated 1 package and audited 52 packages in 1.287s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+[16:49:27.217] Updated types-registry npm package
+[16:49:27.678] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/consumer.js","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/application_controller.js","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/actioncable","cable_ready","stimulus_reflex"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers","kind":"discover"}
+[16:49:27.702] Loaded safelist from types map file '/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/typesMap.json'
+[16:49:27.702] Explicitly included types: []
+[16:49:27.704] Inferred typings from unresolved imports: ["@rails/actioncable","cable_ready","stimulus_reflex"]
+[16:49:27.704] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/actioncable","cable_ready","stimulus_reflex"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules"]}
+[16:49:27.704] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/actioncable","cable_ready","stimulus_reflex"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules"]}
+[16:49:27.704] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components
+[16:49:27.706] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules
+[16:49:27.706] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components
+[16:49:27.706] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules
+[16:49:27.707] Installing typings ["@rails/actioncable","cable_ready","stimulus_reflex"]
+[16:49:27.707] '@rails/actioncable':: Entry for package 'rails__actioncable' does not exist in local types registry - skipping...
+[16:49:27.707] 'cable_ready':: Entry for package 'cable_ready' does not exist in local types registry - skipping...
+[16:49:27.707] 'stimulus_reflex':: Entry for package 'stimulus_reflex' does not exist in local types registry - skipping...
+[16:49:27.707] All typings are known to be missing or invalid - no need to install more typings
+[16:49:27.707] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/actioncable","cable_ready","stimulus_reflex"],"kind":"action::set"}
+[16:49:27.707] Response has been sent.
+[16:51:43.188] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/consumer.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/actioncable"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels","kind":"discover"}
+[16:51:43.189] Explicitly included types: []
+[16:51:43.190] Inferred typings from unresolved imports: ["@rails/actioncable"]
+[16:51:43.191] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/actioncable"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules"]}
+[16:51:43.191] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/actioncable"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules"]}
+[16:51:43.191] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components
+[16:51:43.191] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules
+[16:51:43.192] Installing typings ["@rails/actioncable"]
+[16:51:43.192] '@rails/actioncable':: Entry for package 'rails__actioncable' does not exist in local types registry - skipping...
+[16:51:43.192] All typings are known to be missing or invalid - no need to install more typings
+[16:51:43.192] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/actioncable"],"kind":"action::set"}
+[16:51:43.192] Response has been sent.
+[16:51:45.802] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers","kind":"discover"}
+[16:51:45.802] Explicitly included types: []
+[16:51:45.803] Inferred typings from unresolved imports: []
+[16:51:45.803] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules"]}
+[16:51:45.803] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules"]}
+[16:51:45.804] DirectoryWatcher:: Closed:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components
+[16:51:45.805] DirectoryWatcher:: Closed:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules
+[16:51:45.805] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:51:45.805] Response has been sent.
+[16:51:45.806] No new typings were requested as a result of typings discovery
+[16:51:45.806] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels","kind":"discover"}
+[16:51:45.806] Explicitly included types: []
+[16:51:45.806] Inferred typings from unresolved imports: []
+[16:51:45.806] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules"]}
+[16:51:45.806] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules"]}
+[16:51:45.806] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:51:45.806] Response has been sent.
+[16:51:45.806] No new typings were requested as a result of typings discovery
+[16:54:53.105] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lesliebinbin/.nvm/versions/node/v14.15.4/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/consumer.js","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/application_controller.js","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@rails/actioncable","cable_ready","stimulus_reflex"],"projectRootPath":"/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers","kind":"discover"}
+[16:54:53.105] Explicitly included types: []
+[16:54:53.105] Inferred typings from unresolved imports: ["@rails/actioncable","cable_ready","stimulus_reflex"]
+[16:54:53.105] Result: {"cachedTypingPaths":[],"newTypingNames":["@rails/actioncable","cable_ready","stimulus_reflex"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules"]}
+[16:54:53.105] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@rails/actioncable","cable_ready","stimulus_reflex"],"filesToWatch":["/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/bower_components","/mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/controllers/node_modules"]}
+[16:54:53.105] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/bower_components
+[16:54:53.105] DirectoryWatcher:: Added:: WatchInfo: /mnt/another-disk/cs_courses/rails-project/twitter-like-app/app/javascript/channels/node_modules
+[16:54:53.106] Installing typings ["@rails/actioncable","cable_ready","stimulus_reflex"]
+[16:54:53.106] '@rails/actioncable':: Entry for package 'rails__actioncable' does not exist in local types registry - skipping...
+[16:54:53.106] 'cable_ready':: Entry for package 'cable_ready' does not exist in local types registry - skipping...
+[16:54:53.106] 'stimulus_reflex':: Entry for package 'stimulus_reflex' does not exist in local types registry - skipping...
+[16:54:53.106] All typings are known to be missing or invalid - no need to install more typings
+[16:54:53.106] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@rails/actioncable","cable_ready","stimulus_reflex"],"kind":"action::set"}
+[16:54:53.106] Response has been sent.
