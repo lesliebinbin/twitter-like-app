@@ -1,14 +1,14 @@
-<li id="@post-<%= @post.id %>">
-    <%= link_to gravatar_for(@post.user, size: 50), @post.user %>
-    <span class="user"><%= link_to @post.user.name, @post.user %></span>
+<li id="@post-<%= id %>">
+    <%= link_to gravatar_for(user, size: 50), user %>
+    <span class="user"><%= link_to user.name, user %></span>
     <span class="content">
-        <%= @post.content %>
-        <%= image_tag @post.display_image if @post.image.attached? %>
+        <%= post.content %>
+        <%= image_tag display_image if image.attached? %>
     </span>
     <span class="timestamp">
-        Posted <%= time_ago_in_words(@post.created_at) %> ago.
-        <% if current_user?(@post.user) %>
-            <%= link_to 'delete', @post, method: :delete, data:{confirm: 'You Sure?'} %>
+        Posted <%= time_ago_in_words(created_at) %> ago.
+        <% if current_user?(user) %>
+        <%= link_to 'delete', post, method: :delete, data:{confirm: 'You Sure?'} %>
         <% end %>
     </span>
 </li>

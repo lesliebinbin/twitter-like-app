@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 class CustomUserComponent < ViewComponent::Base
-  include SessionsHelper
-  include UsersHelper
+  attr_reader :user
   with_collection_parameter :user
 
   def initialize(user:)
