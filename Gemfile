@@ -81,9 +81,9 @@ gem "stimulus_reflex", "~> 3.4"
 
 gem "aws-sdk-rails", "~> 3.6"
 
-gem 'activegraph', '~> 10.0.1'
-gem 'neo4j-ruby-driver', '~> 1.7.0'
+# gem 'activegraph', '~> 10.0.1'
+# gem 'neo4j-ruby-driver', '~> 1.7.0'
 
-group :development do
-  gem 'neo4j-rake_tasks'
-end
+# group :development do
+#   gem 'neo4j-rake_tasks'
+# end

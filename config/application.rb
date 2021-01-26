@@ -1,8 +1,8 @@
 require_relative 'boot'
 require "rails"
 require 'rails/all'
-require 'active_graph/railtie'
-require 'neo4j_ruby_driver'
+# require 'active_graph/railtie'
+# require 'neo4j_ruby_driver'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
