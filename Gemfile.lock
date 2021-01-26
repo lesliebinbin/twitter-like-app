@@ -311,7 +311,7 @@ DEPENDENCIES
   active_storage_validations (= 0.9.1)
   aws-sdk-rails (~> 3.6)
   bcrypt (= 3.1.13)
-  bootsnap (>= 1.4.4)
+  bootsnap
   bootstrap-sass (= 3.4.1)
   bootstrap-will_paginate (= 1.0.0)
   byebug
@@ -349,4 +349,4 @@ RUBY VERSION
    ruby 2.7.2p137
 
 BUNDLED WITH
-   2.2.5
+   2.2.6
