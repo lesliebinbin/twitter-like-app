@@ -31,7 +31,6 @@ gem 'view_component'
 
 # Reduces boot times through caching; required in config/boot.rb
 #gem 'bootsnap', '>= 1.4.4', require: false
-gem 'bootsnap'
 
 # Add bootstrap-sass
 gem 'bootstrap-sass', '3.4.1'
