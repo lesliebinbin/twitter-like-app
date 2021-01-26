@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-
+ruby '2.7.2'
+gem 'bundler', '2.2.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
 # process the image
@@ -21,7 +22,6 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '3.1.13'
-gem "slim-rails"
 
 gem 'view_component'
 
@@ -29,7 +29,7 @@ gem 'view_component'
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-#gem 'bootsnap', '>= 1.4.4', require: false
+gem 'bootsnap', '>= 1.4.4', require: false
 
 # Add bootstrap-sass
 gem 'bootstrap-sass', '3.4.1'
