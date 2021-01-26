@@ -78,4 +78,9 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  # Config For Neo4j
+  url, username, password, encryption = Rails.application.credentials.neo4j.values_at(:url, :username, :password, :encryption)
+  config.neo4j.driver.url = url
+  config.neo4j.driver.auth_token = Neo4j::Driver::AuthTokens.basic(username, password)
+  config.neo4j.driver.encryption = encryption
 end

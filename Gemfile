@@ -21,7 +21,7 @@ gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '3.1.13'
 
-gem 'view_component'
+gem 'view_component', require: 'view_component/engine'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -81,5 +81,9 @@ gem "stimulus_reflex", "~> 3.4"
 
 gem "aws-sdk-rails", "~> 3.6"
 
-gem "activegraph", "~> 10.0"
-gem "neo4j-ruby-driver", "~> 1.7"
+gem 'activegraph', '~> 10.0.1'
+gem 'neo4j-ruby-driver', '~> 1.7.0'
+
+group :development do
+  gem 'neo4j-rake_tasks'
+end
