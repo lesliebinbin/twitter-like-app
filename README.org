@@ -31,15 +31,60 @@
      Heroku also support docker-compose project, will give that a try in future
 
 ** Test
-#+begin_src shell
+
+*** Execute All Tests
+#+begin_src shell :exports both
   bin/rails t
 #+end_src
 
 #+RESULTS:
-| Started   | with   | run                                                                  | options     | --seed |     11856 |   |         |   |       |
+| Started   | with   | run                                                                  | options     | --seed |     25762 |   |         |   |       |
 |           |        |                                                                      |             |        |           |   |         |   |       |
 |           |        |                                                                      |             |        |           |   |         |   |       |
 | Progress: |        | ==================================================================== |             |        |           |   |         |   |       |
 |           |        |                                                                      |             |        |           |   |         |   |       |
-| Finished  | in     | 1.51662s                                                             |             |        |           |   |         |   |       |
+| Finished  | in     | 1.51731s                                                             |             |        |           |   |         |   |       |
 | 66        | tests, | 337                                                                  | assertions, |      0 | failures, | 0 | errors, | 0 | skips |
+
+*** Execute Tests For Models
+
+#+begin_src shell :exports both
+  bin/rails test:models
+#+end_src
+
+#+RESULTS:
+| WARNING:  |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Stimulus  | Reflex    | requires                                                             | caching     | to           | be        | enabled.     | Caching | allows | the   | session | to | be | modified | during | ActionCable | requests. |
+| To        | enable    | caching                                                              | in          | development, | run:      |              |         |        |       |         |    |    |          |        |             |           |
+| rails     | dev:cache |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| WARNING:  |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Stimulus  | Reflex    | requires                                                             | caching     | to           | be        | enabled.     | Caching | allows | the   | session | to | be | modified | during | ActionCable | requests. |
+| But       | your      | config.cache_store                                                   | is          | set          | to        | :null_store, | so      | it     | won't | work.   |    |    |          |        |             |           |
+| Started   | with      | run                                                                  | options     | --seed       | 63421     |              |         |        |       |         |    |    |          |        |             |           |
+|           |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+|           |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Progress: |           | ==================================================================== |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+|           |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Finished  | in        | 0.60797s                                                             |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| 19        | tests,    | 63                                                                   | assertions, | 0            | failures, | 0            | errors, | 0      | skips |         |    |    |          |        |             |           |
+
+*** Execute Tests For Integration
+#+begin_src  shell :exports both
+  bin/rails test:integration
+#+end_src
+
+#+RESULTS:
+| WARNING:  |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Stimulus  | Reflex    | requires                                                             | caching     | to           | be        | enabled.     | Caching | allows | the   | session | to | be | modified | during | ActionCable | requests. |
+| To        | enable    | caching                                                              | in          | development, | run:      |              |         |        |       |         |    |    |          |        |             |           |
+| rails     | dev:cache |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| WARNING:  |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Stimulus  | Reflex    | requires                                                             | caching     | to           | be        | enabled.     | Caching | allows | the   | session | to | be | modified | during | ActionCable | requests. |
+| But       | your      | config.cache_store                                                   | is          | set          | to        | :null_store, | so      | it     | won't | work.   |    |    |          |        |             |           |
+| Started   | with      | run                                                                  | options     | --seed       | 54168     |              |         |        |       |         |    |    |          |        |             |           |
+|           |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+|           |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Progress: |           | ==================================================================== |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+|           |           |                                                                      |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| Finished  | in        | 1.31036s                                                             |             |              |           |              |         |        |       |         |    |    |          |        |             |           |
+| 20        | tests,    | 222                                                                  | assertions, | 0            | failures, | 0            | errors, | 0      | skips |         |    |    |          |        |             |           |
