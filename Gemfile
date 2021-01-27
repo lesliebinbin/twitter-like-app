@@ -88,4 +88,4 @@ gem "aws-sdk-rails", "~> 3.6"
 #   gem 'neo4j-rake_tasks'
 # end
 
-gem "searchkick", "~> 4.4"
+# gem "searchkick", "~> 4.4"

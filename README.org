@@ -1,0 +1,28 @@
+* A Twitter Like Rails Application
+** Introduction
+   - This is one of my personal ruby on rails perject
+   - The purpose is to continually adding more functions to it as learning more
+     cool stuff
+   - A sample project already deployed to Heroku, please refer to
+     [[https://leslie-twitter-like-app.herokuapp.com/][Heroku App]]
+
+** Current Implemented Functions
+   - user account registration and activated via email (AWS SES)
+   - user reset password
+   - user follow and unfollow other users
+   - micropost content text search (by applying searchkick, elasticsearch)
+   - view_component render for html and json response
+
+** Todo Functions
+   - Adding comment function to the post
+   - Applying ActionText for rich text content
+   - Realtime notification when a friend of the user make a new post or comment
+     on the post
+   - Integrate Graph Database Neo4j or Tinkerpop for further user relations and
+     interactions analysis, one tiny issue comes to Neo4j is that ActiveGraph
+     gem is based on neo4j-ruby-driver gem, neo4j-ruby-driver gem relies on
+     libseabolt.so, which is a c++ project and requires to download and compile
+     with cmake, while I can compile it on my laptop, on Heroku runtime it is a
+     read-only container, neither yet figure out a way to compile it on Heroku
+     container or just upload the dynamic library into it, luckily, seems like
+     Heroku also support docker-compose project, will give that a try in future
