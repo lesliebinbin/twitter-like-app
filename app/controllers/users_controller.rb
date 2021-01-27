@@ -25,7 +25,6 @@ class UsersController < ApplicationController
         render json: current_user.admin? ? @user : @user.slice(:email, :name)
       end
     end
-    # debugger
   end
 
   def edit

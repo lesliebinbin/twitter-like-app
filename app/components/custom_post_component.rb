@@ -10,4 +10,5 @@ class CustomPostComponent < ViewComponent::Base
   end
 
   def_delegators :post, *%i[id user display_image image created_at]
+  def_delegators :controller, *%i[cookies]
 end
