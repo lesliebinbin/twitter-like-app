@@ -24,11 +24,11 @@
    - Integrate Graph Database Neo4j or Tinkerpop for further user relations and
      interactions analysis, one tiny issue comes to Neo4j is that ActiveGraph
      gem is based on neo4j-ruby-driver gem, neo4j-ruby-driver gem relies on
-     libseabolt.so, which is a c++ project and requires to download and compile
-     with cmake, while I can compile it on my laptop, on Heroku runtime it is a
-     read-only container, neither yet figure out a way to compile it on Heroku
-     container or just upload the dynamic library into it, luckily, seems like
-     Heroku also support docker-compose project, will give that a try in future
+     libseabolt.so, which is a c++ project and need cmake to compile, while I
+     can compile it on my laptop, the Heroku runtime it is a read-only container,
+     neither yet figure out a way to compile it on Heroku container nor just
+     upload the dynamic library into it, luckily, seems like Heroku also support
+     docker-compose project, will give that a try in future
 
 ** Test
 
