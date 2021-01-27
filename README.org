@@ -1,3 +1,6 @@
+# Local Variables:
+# eval: (add-hook 'after-save-hook #'org-babel-execute-buffer t t)
+# End:
 * A Twitter Like Rails Application
 ** Introduction
    - This is one of my personal ruby on rails perject
@@ -26,3 +29,17 @@
      read-only container, neither yet figure out a way to compile it on Heroku
      container or just upload the dynamic library into it, luckily, seems like
      Heroku also support docker-compose project, will give that a try in future
+
+** Test
+#+begin_src shell
+  bin/rails t
+#+end_src
+
+#+RESULTS:
+| Started   | with   | run                                                                  | options     | --seed |     11856 |   |         |   |       |
+|           |        |                                                                      |             |        |           |   |         |   |       |
+|           |        |                                                                      |             |        |           |   |         |   |       |
+| Progress: |        | ==================================================================== |             |        |           |   |         |   |       |
+|           |        |                                                                      |             |        |           |   |         |   |       |
+| Finished  | in     | 1.51662s                                                             |             |        |           |   |         |   |       |
+| 66        | tests, | 337                                                                  | assertions, |      0 | failures, | 0 | errors, | 0 | skips |
