@@ -8,11 +8,23 @@ class UsersController < ApplicationController
 
   def index
     @users = User.paginate(page: params[:page])
+    respond_to do |format|
+      format.html
+      format.json do
+        render json: (current_user.admin? ? @users : @users.map { |user| user.slice(:email, :name) })
+      end
+    end
   end
 
   def show
     @user = User.find(params[:id])
     @microposts = @user.microposts.paginate(page: params[:page])
+    respond_to do |format|
+      format.html
+      format.json do
+        render json: current_user.admin? ? @user : @user.slice(:email, :name)
+      end
+    end
     # debugger
   end
 
@@ -62,14 +74,20 @@ class UsersController < ApplicationController
     @title = 'Following'
     @user = User.find(params[:id])
     @users = @user.following.paginate(page: params[:page])
-    render 'show_follow'
+    respond_to do |format|
+      format.html { render 'show_follow' }
+      format.json { render json: @users.map { |user| user.slice(:name, :email) } }
+    end
   end
 
   def followers
     @title = 'Followers'
     @user = User.find(params[:id])
     @users = @user.followers.paginate(page: params[:page])
-    render 'show_follow'
+    respond_to do |format|
+      format.html { render 'show_follow' }
+      format.json { render json: @users.map { |user| user.slice(:name, :email) } }
+    end
   end
 
   private
